@@ -1,0 +1,13 @@
+.hero{
+    height: 300px;
+    background: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.hero input{
+    color: antiquewhite;
+}
