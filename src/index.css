@@ -1,13 +1,93 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.result {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
 }
+
+header {
+  padding: 20px;
+  background-color: #fb6558;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: bebas;
+  font-size: 1.7em;
+}
+
+header a {
+  text-decoration: none;
+  color: #f2f22f;
+}
+
+.search {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search .searchContainer input {
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 2px 20px;
+          box-shadow: 2px 2px 20px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.search .searchContainer input:focus {
+  -webkit-box-shadow: 4px 4px 20px;
+          box-shadow: 4px 4px 20px;
+}
+
+.carta {
+  width: 250px;
+}
+
+.carta img {
+  width: 90%;
+}
+
+.carta .titulo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.sets {
+  background-color: #3c038c;
+  color: white;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=index.css.map */

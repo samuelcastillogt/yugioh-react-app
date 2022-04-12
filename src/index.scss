@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.result{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+@import "./styles/Header";
+@import "./styles/search";
+@import "./styles/card";
+@import "./styles/footer";

@@ -1,10 +1,19 @@
+import React from "react"
+import { Link } from "react-router-dom"
 function Header(){
     return (
-        <nav className="navbar indigo darken-3">
-    <div className="nav-wrapper">
-      <a href="/" className="card-title">Yu-Gi-Oh React</a>
-    </div>
-  </nav>
+        <header className="">
+          <div className="nav-wrapper">
+           <Link to="/" className="card-title">Yu-Gi-Oh React proyect</Link>
+           
+          </div>
+         {/* <ul>
+            <li>
+              <Link  to="/sets">Buscar Sets</Link>
+            </li> 
+             </ul>*/}
+         
+        </header>
     )
 }
 export default Header

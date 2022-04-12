@@ -1,8 +1,0 @@
-.carrusel{
-    display: flex;
-    overflow: scroll;
-}
-.carruselItem{
-    width: 300px;
-    margin: 20px;
-}
